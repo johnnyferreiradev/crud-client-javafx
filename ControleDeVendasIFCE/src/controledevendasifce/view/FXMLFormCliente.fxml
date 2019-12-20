@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controledevendasifce.controller.FXMLFormClienteController">
+  <children>
+    <Label alignment="CENTER" layoutX="161.0" layoutY="56.0" prefHeight="27.0" prefWidth="279.0" text="Cadastro de cliente" textAlignment="CENTER">
+      <font>
+        <Font name="System Bold" size="20.0" />
+      </font>
+    </Label>
+    <Label layoutX="51.0" layoutY="131.0" text="Nome" />
+    <Label layoutX="51.0" layoutY="184.0" text="CPF" />
+    <Label layoutX="51.0" layoutY="239.0" text="Telefone" />
+    <TextField fx:id="txtNome" layoutX="107.0" layoutY="123.0" prefHeight="34.0" prefWidth="430.0" />
+    <TextField fx:id="txtCPF" layoutX="107.0" layoutY="178.0" prefHeight="34.0" prefWidth="430.0" />
+    <TextField fx:id="txtTelefone" layoutX="107.0" layoutY="230.0" prefHeight="34.0" prefWidth="430.0" />
+    <Button layoutX="398.0" layoutY="321.0" mnemonicParsing="false" onAction="#handleConfirmar" text="Confirmar" />
+    <Button layoutX="481.0" layoutY="321.0" mnemonicParsing="false" onAction="#handleCacelar" text="Cancelar" />
+  </children>
+</AnchorPane>
